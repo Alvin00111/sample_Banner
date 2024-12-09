@@ -4,9 +4,29 @@ body{
 .banner{
     position: relative;
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.eDiPv6orUkXXx2NY8ed41wHaEK%26pid%3DApi&f=1&ipt=d81294b6c9069d9cc46a07d6796afae4afad18035032f023365173d161868a7f&ipo=images);
-    /* background-size: cover; */
+    background-size: cover;
+    width: 100%;
     height: 400px;
     color: white;
     background-position: center;
 
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgb(66, 66, 66);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
 }
